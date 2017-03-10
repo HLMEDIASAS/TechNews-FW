@@ -10,4 +10,7 @@
 	    
 	    # Route pour Afficher un Article
 		['GET', '/article/[i:id]-[:slug].html', 'Default#article', 'default_article'],
+	    
+	    # Route pour Ajouter un Article
+	    ['GET|POST', '/article/ajouter-un-article.html', 'Article#add', 'article_add'],
 	);

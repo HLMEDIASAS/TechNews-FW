@@ -21,7 +21,7 @@
             
              <?= $article->CONTENUARTICLE; ?>
              
-            <h5 class="text-right font-heading"><strong>Hugo LIEGEARD</strong> </h5>
+            <h5 class="text-right font-heading"><strong><?= $article->PRENOMAUTEUR; ?> <?= $article->NOMAUTEUR; ?></strong> </h5>
 
         </article>
         <!--social-detail-->

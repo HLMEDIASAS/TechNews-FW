@@ -21,7 +21,7 @@ namespace Model;
  *
  */
 
-trait Shortcut
+class Shortcut
 {
     /**
      * Créer un SLUG à partir du Titre d'un Article
