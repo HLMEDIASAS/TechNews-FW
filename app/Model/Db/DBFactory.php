@@ -30,7 +30,8 @@ class DBFactory
             'categorie'     => 'IDCATEGORIE',
             'tags'          => 'IDTAGS',
             'view_articles' => 'IDARTICLE',
-            'view_tags'     => 'IDARTICLE'
+            'view_tags'     => 'IDARTICLE',
+            'newsletter'    => 'IDNEWSLETTER'
         ));
     }
     

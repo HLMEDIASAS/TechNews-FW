@@ -39,8 +39,10 @@
 	<div class="subcribe-box">
 		<h3>NEWSLETTER</h3>
 		<p>Inscrivez-vous pour recevoir nos dernières publications.</p>
-		<input type="text" placeholder="Votre Email..." />
-		<button class="my-btn">Je m'inscris</button>
+		<form id="newsletterForm">
+			<input type="text" placeholder="Votre Email..." />
+			<button type="submit" class="my-btn">Je m'inscris</button>
+		</form>
 	</div>
 	<!-- connect us-->
 	<div class="connect-us">

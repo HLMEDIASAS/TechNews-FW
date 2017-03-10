@@ -64,6 +64,7 @@ class ArticleController extends Controller
         # Récupérer les Catégories
         $categories = \ORM::for_table('categorie')->find_result_set();
         
+        # Transmission à la Vue
         $this->show('article/add', ['auteurs' => $auteurs, 'categories' => $categories]);
     }
 }
